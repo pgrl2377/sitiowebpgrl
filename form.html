@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/180c487c57.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap" rel="stylesheet">  
+     <link rel="shortcut icon" href="imagenes/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/miestilo.css">
+    <title>Registro</title>
+</head>
+<body id="Formulario" >
+   <header class="cabecera">
+            <nav>
+                <br>
+                <a class="nav" href="home.html">Home</a>
+                <a class="nav" href="about.html">Acerca de</a>
+                <a  class="nav" href="contacto.html">Contacto</a>
+                <a  class="nav" href="form.html">Formulario</a>
+                <a  class="nav" href="location.html">Localizacion</a>
+            </nav>
+            <h1 class="center" >La Cocina de Juan </h1>
+           </header>
+        <form action="show_data.html" target="_blank">
+            <br>
+        <h2>Formulario Registro</h2>
+        <br>
+        <label> Nombre: </label>
+        <input size="30"  class="controls" type="text" name="nombre" id="nombres" placeholder="Ingrese nombre aqui">
+        <label> Apellido: </label>
+        <input size="30"  class="controls" type="text" name="apellido" id="apellidos" placeholder="Ingrese su apellido aqui">
+         <br>
+        <label> Direccion:</label>
+        <br>
+        <label> Calle: </label>
+        <input class="controls" type="text"  name="calle" id="calle" placeholder="Ingrese su calle aqui">
+        <label> Numero: </label>
+        <input class="controls" type="text"  name="numero" id="numero" placeholder="Ingrese el numero">
+        <label> Ciudad: </label>
+        <input  class="controls" type="text" name="ciudad" id="ciudad" value="C.A.B.A">
+        <label> Codigo Postal: </label>
+        <input  class="controls" type="text" name="codigo postal" id="codigo postal" placeholder="Ingrese su codigo postal">
+        <br>
+        <label> Telefono: </label>
+        <input  class="controls" type="text" name="telefono" id="telefono" placeholder="Ingrese su telefono aqui">
+        <label> Fecha Nac.: </label>
+        <input class="controls"  type="date"  name="fecha nac" id="fecha nac" placeholder="Fecha Nac:">
+        <label> Mail: </label>
+        <input class="controls"  type="email" name="mail" id="mail">
+        <label> Clave: </label>
+        <input  class="controls" type="text" name="clave" id="clave">
+        <label> Link del TP 3: </label>
+        <input  class="controls" type="text" name="link TP3" id="Link TP3" placeholder="Link del TP 3:">
+    
+          <p> Genero:(Radio)
+        <input  type="radio"  name="genero" id="hombre"  value="Hombre" >
+        <label for="Hombre">Hombre</label>
+        <input type="radio" name="genero"  id="mujer"  value="Mujer">
+        <label for="Mujer">Mujer</label>
+        <input type="radio" name="genero"  id="otro"  value="Otro">
+        <label for="Otro">Otro</label>
+        </p>
+        
+         <p> Conocimientos previos: (checkbox) 
+        
+            <input type="checkbox" name="conocimientos" value="HTML">
+            <label>HTML</label>
+            <input type="checkbox" name="conocimientos" value="CSS" >
+            <label>CSS</label>
+            <input type="checkbox" name="conocimientos" value="BOOTSTRAP" > 
+            <label>Bootstrap</label>
+            <input type="checkbox" name="conocimientos" value="Javascript" > 
+            <label>Javascript</label>
+            <input type="checkbox" name="conocimientos" value="Typescript" > 
+            <label>Typescript</label>
+            <input type="checkbox" name="conocimientos" value="Angular" > 
+            <label>Angular</label>
+            <input type="checkbox" name="conocimientos" value="BaseDeDatos" >
+            <label>Base de datos</label>
+            <input type="checkbox" name="conocimientos" value="Python" >
+            <label>Python</label>
+            <input type="checkbox" name="conocimientos" value="Django" >
+            <label> Django</label>
+            </p>
+            <br>
+           <label> Estudios: (Select) </label>
+            <select id="estudios" name="estudios">
+            <option value="primaria">Primaria</option>
+            <option value="secundaria">Secundaria</option>
+            <option value="terciario">Terciario</option>
+            <option value="universitario">Universitario</option>
+            </select>
+            <br>
+            <label for="comentarios">Comentarios:</label>
+            <br>
+            <textarea name="comentarios" rows="5" cols="50"> </textarea>
+            <br>
+            <input class="boton" type="submit" value="Enviar">
+           
+        </form>
+
+            <footer>
+                <br>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-pinterest"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+                <p>Derechos reservados @2020 </p>
+                <br>
+                
+                
+                </footer>       
+</body>
+</html>
