@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\Fullstack\\codigohtml"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "MiSitioWeb"
+	},
+	"extensions": {
+		"recommendations": [
+			"ritwickdey.liveserver",
+			"auchenberg.vscode-browser-preview"
+		]
+	}
+}
